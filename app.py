@@ -109,7 +109,7 @@ city = st.sidebar.text_input("City")
 industry = st.sidebar.text_input("Industry (Eg: IT Companies)")
 country = st.sidebar.selectbox("Country", ["India", "USA", "UK", "Canada", "Australia"])
 
-limit = st.sidebar.number_input("Companies Limit", min_value=5, max_value=100, value=20)
+limit = st.sidebar.number_input("Companies Limit", min_value=5, max_value=100, value=50)
 
 st.sidebar.markdown("---")
 
